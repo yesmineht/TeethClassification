@@ -12,7 +12,9 @@ Then, we have built a model to perform the teeth class prediction.after that
 Tooth classification stage, the preprocessed octree images are input into two-level hierarchical architecture,feature extracting using resnet architecture and then applying Graph Neural Networks (GNNs) to the task of node classification.
 
 We achieve very good scores for:
+
 • Accuracy: = 0.98%.
+
 • loss = 5%.
 #
 
