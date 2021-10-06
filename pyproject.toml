@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "teeth_classification_2d_gnn"
+version = "0.1.0"
+description = "2D teeth classification usin cnn + gnn"
+authors = ["Ahmed rekik"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "^1.19.4"
+opencv-python = "^4.2.0.32"
+tqdm = "^4.62.2"
+Pillow = "^8.3.2"
+torch = "^1.9.0"
+torchvision = "^0.10.0"
+tensorboard = "^2.2.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
